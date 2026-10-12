@@ -9,6 +9,10 @@
   [![Featured in Docs](https://img.shields.io/badge/Official_Ecosystem-Featured_in_Docs-00f2fe?style=for-the-badge&logo=android&logoColor=white)](https://docs.heycall-e.com/sdks#community-sdks)
   [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Wear%20OS-7c3aed?style=for-the-badge)](https://github.com/tensormind-tech/calle-android-sdk)
 
+  <br /><br />
+
+  <img src="assets/banner.png" alt="CALL-E Android SDK Hero Banner" width="100%" />
+
 </div>
 
 ---
