@@ -1,11 +1,7 @@
 <div align="center">
 
   <a href="https://docs.heycall-e.com/sdks#community-sdks" target="_blank">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tensormind-tech/calle-android-sdk/main/assets/logo-CALL-E-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tensormind-tech/calle-android-sdk/main/assets/logo-CALL-E-light.svg">
-      <img src="https://raw.githubusercontent.com/tensormind-tech/calle-android-sdk/main/assets/logo-CALL-E-dark.svg" alt="CALL-E Official Logo" width="180" />
-    </picture>
+    <img src="assets/logo-CALL-E-yellow.svg" alt="CALL-E Official Logo" width="200" />
   </a>
 
   <br /><br />
