@@ -307,6 +307,22 @@ This SDK operates with **zero telemetry and zero data collection**. All API cred
 
 ---
 
+## 🏷️ Powered by CALL-E Badge
+
+Building an Android or Wear OS app powered by CALL-E? Add this official badge to your project's `README.md`:
+
+```markdown
+[![Powered by CALL-E](https://img.shields.io/badge/AI_Voice_Calls-CALL--E%20SDK-FFE600?style=for-the-badge&logo=android&logoColor=black)](https://github.com/tensormind-tech/calle-android-sdk)
+```
+
+<div align="left">
+  <a href="https://github.com/tensormind-tech/calle-android-sdk">
+    <img src="https://img.shields.io/badge/AI_Voice_Calls-CALL--E%20SDK-FFE600?style=for-the-badge&logo=android&logoColor=black" alt="Powered by CALL-E" />
+  </a>
+</div>
+
+---
+
 ## 📄 License
 
 Licensed under the [MIT License](LICENSE).
