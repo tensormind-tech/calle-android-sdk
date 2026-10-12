@@ -9,10 +9,6 @@
   [![Featured in Docs](https://img.shields.io/badge/Official_Ecosystem-Featured_in_Docs-00f2fe?style=for-the-badge&logo=android&logoColor=white)](https://docs.heycall-e.com/sdks#community-sdks)
   [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Wear%20OS-7c3aed?style=for-the-badge)](https://github.com/tensormind-tech/calle-android-sdk)
 
-  <br /><br />
-
-  <img src="assets/banner.png" alt="CALL-E Android SDK Hero Banner" width="100%" />
-
 </div>
 
 ---
@@ -31,6 +27,12 @@
 Fully updated and compliant with the **[CALL-E V2 API specification](https://docs.heycall-e.com/calls)** (`/v2/calls`) and **SDK 1.0**.
 
 All SDK sources are located under [`src/main/kotlin/com/calle/sdk`](src/main/kotlin/com/calle/sdk) for seamless Gradle dependency integration or direct copy-paste into any Android project.
+
+<br />
+
+<div align="center">
+  <img src="assets/banner.png" alt="CALL-E Android SDK Hero Banner" width="100%" />
+</div>
 
 ---
 
