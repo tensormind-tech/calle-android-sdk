@@ -66,6 +66,38 @@ src/main/kotlin/com/calle/sdk/
     └── CallEStatusBadge.kt  # Animated Jetpack Compose UI Status Badge
 ```
 
+### 🔄 End-to-End Architecture Flow
+
+```mermaid
+flowchart TD
+    subgraph Client ["📱 Client Application (Android / Wear OS)"]
+        UI["Compose UI / Wear OS Companion"]
+        Resolver["SmartCallResolver"]
+        SDK["CallEClient (Ktor V2 Engine)"]
+    end
+
+    subgraph Intelligence ["🧠 Intelligence & Resolution"]
+        Serp["SerpApi (Google Business & Phone Lookup)"]
+        Groq["Groq Cloud (Llama 3.3 Prompt & Intent Refinement)"]
+    end
+
+    subgraph Infrastructure ["☁️ CALL-E Cloud & Telephony"]
+        CalleAPI["CALL-E V2 API (/v2/calls)"]
+        Agent["Autonomous AI Voice Call Agent"]
+        PhoneNetwork["PSTN / Cellular Telephone Network"]
+    end
+
+    UI -->|Natural language request| Resolver
+    Resolver -->|Query business telephone| Serp
+    Resolver -->|Refine goal & scalar schema| Groq
+    Resolver -->|Construct CallRequest| SDK
+    SDK -->|Idempotent POST /v2/calls| CalleAPI
+    CalleAPI --> Agent
+    Agent -->|Live autonomous voice call| PhoneNetwork
+    CalleAPI -.->|pollCallEvents & pollCallStatus Flow| SDK
+    SDK -.->|Reactive state updates & transcript| UI
+```
+
 ---
 
 ## ⚡ 2-Minute Quick Integration Guide
