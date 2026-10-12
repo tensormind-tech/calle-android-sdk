@@ -312,14 +312,18 @@ This SDK operates with **zero telemetry and zero data collection**. All API cred
 Building an Android or Wear OS app powered by CALL-E? Add this official badge to your project's `README.md`:
 
 ```markdown
-[![Powered by CALL-E](https://img.shields.io/badge/AI_Voice_Calls-CALL--E%20SDK-FFE600?style=for-the-badge&logo=android&logoColor=black)](https://github.com/tensormind-tech/calle-android-sdk)
+<!-- Large Badge -->
+[![Powered by CALL-E](https://img.shields.io/badge/Powered_by-CALL--E-FFE600?style=for-the-badge&logo=android&logoColor=white&labelColor=0d1117)](https://github.com/tensormind-tech/calle-android-sdk)
+
+<!-- Compact Badge -->
+[![Powered by CALL-E](https://img.shields.io/badge/Powered_by-CALL--E-FFE600?style=flat-square&logo=android&logoColor=white&labelColor=0d1117)](https://github.com/tensormind-tech/calle-android-sdk)
 ```
 
-<div align="left">
-  <a href="https://github.com/tensormind-tech/calle-android-sdk">
-    <img src="https://img.shields.io/badge/AI_Voice_Calls-CALL--E%20SDK-FFE600?style=for-the-badge&logo=android&logoColor=black" alt="Powered by CALL-E" />
-  </a>
-</div>
+**Preview:**
+
+[![Powered by CALL-E](https://img.shields.io/badge/Powered_by-CALL--E-FFE600?style=for-the-badge&logo=android&logoColor=white&labelColor=0d1117)](https://github.com/tensormind-tech/calle-android-sdk)
+&nbsp;&nbsp;
+[![Powered by CALL-E](https://img.shields.io/badge/Powered_by-CALL--E-FFE600?style=flat-square&logo=android&logoColor=white&labelColor=0d1117)](https://github.com/tensormind-tech/calle-android-sdk)
 
 ---
 
