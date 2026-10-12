@@ -1,12 +1,16 @@
 <div align="center">
 
-  <a href="https://www.heycall-e.com" target="_blank">
-    <img src="https://www.heycall-e.com/wp-content/uploads/2026/04/logo-CALL-E.svg" alt="CALL-E Official Logo" width="180" />
+  <a href="https://docs.heycall-e.com/sdks#community-sdks" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tensormind-tech/calle-android-sdk/main/assets/logo-CALL-E-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tensormind-tech/calle-android-sdk/main/assets/logo-CALL-E-light.svg">
+      <img src="https://raw.githubusercontent.com/tensormind-tech/calle-android-sdk/main/assets/logo-CALL-E-dark.svg" alt="CALL-E Official Logo" width="180" />
+    </picture>
   </a>
 
-  <br />
+  <br /><br />
 
-  [![Featured in Docs](https://img.shields.io/badge/Official_Ecosystem-Featured_in_Docs-00f2fe?style=for-the-badge&logo=android&logoColor=white)](https://www.heycall-e.com)
+  [![Featured in Docs](https://img.shields.io/badge/Official_Ecosystem-Featured_in_Docs-00f2fe?style=for-the-badge&logo=android&logoColor=white)](https://docs.heycall-e.com/sdks#community-sdks)
   [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Wear%20OS-7c3aed?style=for-the-badge)](https://github.com/tensormind-tech/calle-android-sdk)
 
 </div>
