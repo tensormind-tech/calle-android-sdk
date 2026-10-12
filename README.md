@@ -113,6 +113,22 @@ dependencies {
 
 ---
 
+### Step 3: AndroidManifest Permissions
+
+Add network access to your `app/src/main/AndroidManifest.xml`:
+
+```xml
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Required: for CALL-E V2 API, Groq LLM, and SerpApi network calls -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Optional: Only if using DeviceContactResolver for device contact lookup -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+</manifest>
+```
+
+---
+
 ## 💻 Code Examples
 
 ### 1. Initialize Client & Dispatch Call
