@@ -177,4 +177,5 @@ transcriptResult.onSuccess { transcript ->
 
 ## 📄 License
 
+Copyright © 2026 TensorMind Technologies. All rights reserved.  
 Licensed under the [MIT License](LICENSE).

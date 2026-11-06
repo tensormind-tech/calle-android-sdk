@@ -309,4 +309,5 @@ This SDK operates with **zero telemetry and zero data collection**. All API cred
 
 ## 📄 License
 
+Copyright © 2026 TensorMind Technologies. All rights reserved.  
 Licensed under the [MIT License](LICENSE).
